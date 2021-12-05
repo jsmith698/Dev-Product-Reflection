@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Secret Gist</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'><link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="Big text-center">
+        <h1 id="page name">Developer Reflection</h1>
+    </div>
+
+    <div class="container">
+        <div class="text-center">
+            <div class="col-sm-12">
+            <img src="img/notebook.jpg" alt="notebook" width="400" height="400"/>
+    </div>
+
+    <div class="text-center">
+        <div class="col-sm-12">
+    </div>
+
+    </div>
+
+    <div class="Big text-center">
+        <h2 id="page name">Product Backstory</h2>
+    </div>
+    <pre>
+        When it came to the development of both qwxt and tap-to-reply, the team wanted to make an app that made it to where responses to a question
+        were to the point, short, less time consuming, and actually answer the question which is why we had made it to where the user can just 
+        choose the responses by clicking on a button which will instantly display the response to the question.
+    </pre>
+    
+    <div class="Big text-center">
+        <h2 id="page name">Css and Qwxt App Issues</h2>
+    </div>
+    <pre>
+        Like any product, there were issues and obstacles that we had to face in the development of the product. For starters on the team had their 
+        own assigned tasks that were put into cards on our project board and my tasks was mostly working with css. These tasks had include: 
+
+        - Add animations to qwxt to make the message and send bubbles flowier
+        - Change placement of message and send where message is on the left and send is on the right
+        - Add the classes to qwxt to make both the message and send bubbles work
+
+        So the issue with css had started after I had copied the code from tap-to-reply and pasted it into qwxt's css because we had decided for 
+        qwxt to have the same message and send bubbles, color, and alignment as tap-to-reply. However, when I ran the code, the message and send
+        changed to it's correct colors but it wasn't changing to a bubble shape and they didn't align either. I checked to make sure I had put
+        the same class which is called pstyle in qwxt's app just like tap-to-replys app and I did. I look back at tap-to-reply's code and copy 
+        some more code that's called import, use, and root and pasted it to qwxt's css. When I go to test it again, the message and send turned
+        into bubbles and they were both aligned correctly; however, the message would display the question but the responses and the send would
+        display and error message instead of the response choices. It turned out that the issue was not on my end and that it was because Ben who
+        was working on the qwxt app along side Noah had not updated the code on his end and in order to update the code, it had to be
+        pushed. Once it was updated I pulled the code which updated on my end and saved any changes that were made to the qwxtapp and tried running
+        it again. When I ran it again it finally worked, the message displayed the question, the responses displayed the choices, and when I 
+        clicked on one of the response choices, the send displayed the chosen reponse that I showed. The message and send were in the shape of text 
+        bubbles and were both aligned correctly so the qwxtapp was working perfectly again and the design of the app looked exactly how we wanted it 
+        to look.
+    </pre>
+    
+    <div class="container">
+        <div class="text-center">
+            <div class="col-sm-12">
+            <img src="img/tap-to-reply css code snippet.png" alt="tap-to-reply css code snippet" width="500" height="500"/>
+    </div>
+    
+    <div class="container">
+        <div class="text-center">
+            <div class="col-sm-12">
+            <img src="img/qwxt css code snippet.png" alt="qwxt css code snippet" width="400" height="400"/>
+    </div>
+
+    <div class="Big text-center">
+        <h2 id="page name">Team Meeting Conflict</h2>
+    </div>
+
+    <pre>
+        When it comes to the team, we mostly had our meetings either via zoom or google meet but there were never any problems where one of us
+        got into a dispute or disagreement, we all mostly got along with one another. The only conflict I can think of is when it comes to work or 
+        other group projects in other classes. There was one time where we had a meeting at 7 but I was busy with another group meeting in a 
+        another class but it was handled by me letting my members know that I was at another group meeting and that I was going to be late
+        in joining the online meeting. Another incident was when we would have meetings over the weekend and Taylor would let us know that she had 
+        to work that day in which we all handled it by rescheduling the meeting for the next day when Taylor didn't have work or earlier in the day 
+        before she had to leave for work. Those were really minor issues that were easily handled but other than that the team had no 
+        problems with one another besides a few meeting scheduling issues.
+    </pre>
+
+    <div class="Big text-center">
+        <h2 id="page name">Product Development Environment and Process</h2>
+    </div>
+
+    <pre>
+        In the developement of the product, the team had started off using node js but realized that it didn't do well with css and js so we 
+        changed to php since it can handle it better and decided to put the app on heroku. So when someone goes to the teams github page, they
+        can click on the heroku link that's located on the right of the page and it will lead them to the qwxt and tap-to-reply app where they 
+        can typed their question and choose the reponse choices as a way to answer the question. How we would run and test our product, we would 
+        start up xammp apache and then type our team folder name that was located in the xammp htdocs folder as a local host and it would pull up 
+        our app and run it that way. So before we would work on the product we would always discuss what stuff we need to fix or add and we would
+        write this down as a issue and/or card on our project board on github and we would look at the issues and cards and work on what we had 
+        written down that needed to be either fixed or added and after we got through fixing and adding to our product, we would close the issue 
+        and/or drag our card to the completed section of our project board. If we are still in the middle of working on it, we would drag the card
+        to the in progress section. The process of how we go about discussing and implementing into our product helps tell how the team operated
+        in our step by step process of how we went about working on the product. The product itself helps the user understand how both the apps 
+        work and operate including providing story cards and information on the main pages of what it's suppose to do and how beneficial it is to
+        the user.
+    </pre>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script><script  src="./scripts/script.js"></script>
+
+</body>
+</html>
